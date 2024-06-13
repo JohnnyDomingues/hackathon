@@ -20,6 +20,7 @@ h1 {
   text-align: center;
   font-size: 2.5rem;
 }
+
 h2 {
   font-family: var(--subtitle);
   color: white;
@@ -29,13 +30,20 @@ h2 {
 }
 
 p {
-  font-family: Orbitron;
+  font-family: Orbitron, serif;
 }
 
 .titles-container {
-  /* background-color: aqua; */
   padding: 2rem;
   margin: 1rem;
 }
-@media (max-width: 430px) {
+
+.lucky-div {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.lucky-div h3 {
+  font-family: var(--title), serif;
+  color: white;
 }

@@ -9,7 +9,10 @@ function App() {
     <div className="titles-container">
       <h1>Adopt a star</h1>
       <h2>for a night</h2>
+      <div className="lucky-div">
+        <h3>Who is going to be my date?</h3>
       <ButtonLuckyMe />
+      </div>
       <ul>
         {stars.map((star) => (
           <li key={star.id}>{star.name}</li>

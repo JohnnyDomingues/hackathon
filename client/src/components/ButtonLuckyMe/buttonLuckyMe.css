@@ -1,0 +1,13 @@
+.heart-button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  outline: inherit;
+  width: 120px;
+}
+
+.heart-button img {
+  width: 100%;
+}
