@@ -14,18 +14,8 @@ body {
   height: 100%;
 }
 
-h1 {
-  font-family: var(--title);
-  color: white;
+.app-container {
   text-align: center;
-  font-size: 2.5rem;
-}
-h2 {
-  font-family: var(--subtitle);
-  color: white;
-  text-align: center;
-  font-size: 2rem;
-  line-height: 0.1rem;
 }
 
 p {
@@ -33,9 +23,6 @@ p {
 }
 
 .titles-container {
-  /* background-color: aqua; */
   padding: 2rem;
   margin: 1rem;
-}
-@media (max-width: 430px) {
 }
