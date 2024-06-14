@@ -1,20 +1,24 @@
 import "./App.css";
-import {useLoaderData} from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
+import Header from './components/header/Header';
 
 function App() {
   const stars = useLoaderData();
 
   return (
-    <div className="titles-container">
-      <h1>Adopt a star</h1>
-      <h2>for a night</h2>
-      <ul>
-        {stars.map((star) => (
-          <li key={star.id}>{star.name}</li>
-        ))}
-      </ul>
+    <div className="app-container">
+      <Header />
+      <div className="titles-container">
+        <ul>
+          {stars.map((star) => (
+            <li key={star.id}>{star.name}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
 
 export default App;
+
+
