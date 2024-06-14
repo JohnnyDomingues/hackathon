@@ -70,7 +70,7 @@
 .subcard-image {
   width: 60%;
   margin-right: 75px;
-  position: static;
+  position: relative;
 }
 
 .subcard {
@@ -105,8 +105,9 @@
 
 @media (max-width: 431px) {
   .card {
-    width: 300px;
-    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 8px 8px;
     align-items: center;
   }
 }

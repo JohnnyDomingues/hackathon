@@ -15,18 +15,25 @@ body {
 }
 
 h1 {
-  font-family: var(--title);
+  font-family: var(--title), serif;
   color: white;
   text-align: center;
   font-size: 2.5rem;
 }
 h2 {
-  font-family: var(--subtitle);
+  font-family: var(--subtitle), serif;
   color: white;
   text-align: center;
   font-size: 2rem;
   line-height: 0.1rem;
 }
-*/ p {
-  font-family: Orbitron;
+
+p {
+  font-family: Orbitron, serif;
+}
+
+.cards {
+  margin: 10rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
