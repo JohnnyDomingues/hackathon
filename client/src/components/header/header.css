@@ -43,7 +43,7 @@ h2 {
 
   .logo {
     margin-bottom: 1rem; /* Ajoutez de l'espace entre le logo et le titre en vue mobile */
-    margin-right: 0;
+    margin-right: 50px;
   }
   .title-container {
     align-items: flex-start; /* Aligne le titre à gauche */
