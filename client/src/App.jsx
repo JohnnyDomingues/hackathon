@@ -29,7 +29,6 @@ function App() {
     <div className="titles-container">
       <h1>Adopt a star</h1>
       <h2>for a night</h2>
-
       <button type="button" onClick={handleRotate}>
         Rotate Cards
       </button>
