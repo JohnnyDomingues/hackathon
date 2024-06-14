@@ -14,6 +14,7 @@ body {
   height: 100%;
 }
 
+
 h1 {
   font-family: var(--title), serif;
   color: white;
@@ -27,14 +28,19 @@ h2 {
   text-align: center;
   font-size: 2rem;
   line-height: 0.1rem;
+  
+.app-container {
+  text-align: center;
 }
 
 p {
   font-family: Orbitron, serif;
 }
 
+
 .cards {
   margin: 10rem 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
+
+
