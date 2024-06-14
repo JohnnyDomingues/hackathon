@@ -1,5 +1,6 @@
 import logo from "../../assets/images/Logo.png";
-import './header.css'; // Assurez-vous d'importer votre fichier CSS
+// Assurez-vous d'importer votre fichier CSS
+import './header.css';
 
 function Header() {
   return (

@@ -1,6 +1,6 @@
 import "./App.css";
 import { useLoaderData } from "react-router-dom";
-import Header from './components/header/header';
+import Header from './components/header/Header';
 
 function App() {
   const stars = useLoaderData();
@@ -20,3 +20,5 @@ function App() {
 }
 
 export default App;
+
+
