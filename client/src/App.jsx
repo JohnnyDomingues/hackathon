@@ -1,9 +1,12 @@
 import "./App.css";
 import { useLoaderData } from "react-router-dom";
+
+import Footer from "./components/footer/Footer";
 import { useState } from "react";
 import StarCard from "./components/Cards";
 import Header from "./components/header/Header";
 import heartImage from "./assets/images/coeur_lucky_me.png";
+
 
 function App() {
   const stars = useLoaderData();
@@ -47,7 +50,9 @@ function App() {
           />
         ))}
       </div>
-    </>
+      <Footer />
+    </div>
+   </>
   );
 }
 
