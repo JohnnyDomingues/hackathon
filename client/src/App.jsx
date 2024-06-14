@@ -2,8 +2,7 @@ import "./App.css";
 import { useLoaderData } from "react-router-dom";
 import { useState } from "react";
 import StarCard from "./components/Cards";
-import Header from './components/header/Header';
-
+import Header from "./components/header/Header";
 
 function App() {
   const stars = useLoaderData();
@@ -28,12 +27,10 @@ function App() {
   const randomCards = getRandomCards();
 
   return (
- <div className="app-container">
-      <Header />
+    <>
+      <div className="app-container">
+        <Header />
       </div>
-    <div className="titles-container">
-      <h1>Adopt a star</h1>
-      <h2>for a night</h2>
       <button type="button" onClick={handleRotate}>
         Rotate Cards
       </button>
@@ -45,10 +42,9 @@ function App() {
             rotate={index === rotateCardIndex}
           />
         ))}
-    </div>
+      </div>
+    </>
   );
 }
 
 export default App;
-
-
