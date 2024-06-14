@@ -1,5 +1,5 @@
 import "./App.css";
-import { useLoaderData } from "react-router-dom";
+import {useLoaderData} from "react-router-dom";
 import StarCard from "./components/Cards";
 
 function App() {
@@ -21,10 +21,13 @@ function App() {
       <h1>Adopt a star</h1>
       <h2>for a night</h2>
 
-      {getRandomCards().map((star) => (
-        <StarCard key={star.id} star={star} />
-      ))}
+      <div className="cards">
+        {getRandomCards().map((star) => (
+          <StarCard key={star.id} star={star}/>
+        ))}
+      </div>
     </div>
   );
 }
+
 export default App;

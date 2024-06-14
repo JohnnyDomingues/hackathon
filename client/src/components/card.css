@@ -65,12 +65,14 @@
 }
 
 .subcard-image {
+  background-color: yellowgreen;
   width: 60%;
   margin-right: 75px;
-  position: static;
+  position: relative;
 }
 
 .subcard {
+  background-color: green;
   border: 2px solid rgb(232, 80, 105);
   padding: 5px 10px;
   border-radius: 4px;
@@ -89,9 +91,10 @@
 }
 
 .back h2 {
+  background-color: red;
   margin: 10px 0;
   color: rgb(255, 255, 255);
-  font-size: 1.8rem;
+  font-size: 1rem;
   margin-top: 1px;
   padding: 20px 3px;
 }
@@ -102,8 +105,9 @@
 
 @media (max-width: 431px) {
   .card {
-    width: 300px;
-    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 8px 8px;
     align-items: center;
   }
 }
