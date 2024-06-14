@@ -3,6 +3,7 @@ import { useLoaderData } from "react-router-dom";
 import { useState } from "react";
 import StarCard from "./components/Cards";
 import Header from "./components/header/Header";
+import heartImage from "./assets/images/coeur_lucky_me.png";
 
 function App() {
   const stars = useLoaderData();
@@ -31,9 +32,12 @@ function App() {
       <div className="app-container">
         <Header />
       </div>
-      <button type="button" onClick={handleRotate}>
-        Rotate Cards
-      </button>
+      <div className="lucky-div">
+        <h3>Who is going to be my date ?</h3>
+        <button className="button-heart" type="button" onClick={handleRotate}>
+          <img src={heartImage} alt="Rotate Cards" />
+        </button>
+      </div>
       <div className="cards">
         {randomCards.map((star, index) => (
           <StarCard
